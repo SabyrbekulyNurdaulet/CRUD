@@ -1,0 +1,127 @@
+.text-gradient{
+    text-align: center;
+    background: rgb(255, 255, 255);
+    
+}
+header nav{
+    background-color: #0e7e3d;
+    color: white;
+    padding: 20px 0;
+    width: 100%;
+}
+main{
+    margin-top: 50px;
+    
+}
+form{
+    margin: 32px 0;
+}
+
+h2{
+    font-family: 'Roboto', sans-serif;
+     
+}
+*{
+    padding: 0;
+    margin: 0 ;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+ 
+    color: black;
+}
+.container{
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.d-flex-justify-between{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-weight: bold;
+   
+
+}
+.text-center{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+}
+.border-shadow{
+    border: 1px solid var(--border-btn);
+    box-shadow: 1px 3px 10px var(--border);
+}
+.text-dark{
+    color: rgb(245, 5, 5);
+}
+.text-light{
+    color: rgb(255, 0, 0);
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+   
+}
+
+i{
+    color: rgb(255, 0, 0);
+    margin-bottom: -3px;
+    padding-right: 5px;
+}
+.img{
+    width: 400px;
+    height: 400px;  
+}
+img{
+    margin-top: 70px;
+    width: 60%;
+}
+
+.btn.text-dark{
+    
+    border: 1px solid #0e7e3d;
+    color: #0e7e3d;
+    background-color: transparent;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 30px;
+    transition: background-color 0.2s ease-in-out;
+
+     
+}
+.btn.text-dark:hover{
+    background-color: #ff0000;
+    color: #ff0000;
+    cursor: pointer;
+}
+.form-group{
+    margin-top: 25px;
+    margin-left: 25px;
+
+    padding-bottom: 15px;
+}
+.form-title{
+ margin-top: 10px;
+}
+.ctn{
+   
+
+    display: flex;
+    justify-content: space-between;
+}
+input {
+    border: 2px solid #0e7e3d;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+input:focus {
+outline: none;
+border-color: #0e7e3d;
+}
+
